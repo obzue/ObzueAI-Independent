@@ -44,7 +44,7 @@ export function Shell({ children }: { children: ReactNode }) {
       <header className="sticky top-0 z-30 border-b border-line bg-bg/90 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center gap-4 px-4 py-3">
           <Link to="/" className="font-display text-2xl leading-none tracking-tight">
-            Northroom
+            ObzueAI Independent
           </Link>
           <nav className="ml-4 hidden items-center gap-4 md:flex">
             <Link to="/marketplace" search={MARKET_ALL} className="text-sm text-muted hover:text-ink" activeProps={{ className: "text-sm text-ink" }}>
@@ -126,7 +126,7 @@ export function Shell({ children }: { children: ReactNode }) {
       <footer className="border-t border-line">
         <div className="mx-auto grid max-w-6xl gap-6 px-4 py-10 sm:grid-cols-2">
           <div>
-            <p className="font-display text-xl">Northroom</p>
+            <p className="font-display text-xl">ObzueAI Independent</p>
             <p className="mt-2 max-w-sm text-sm text-muted">
               A direct hall for independent artists. Music, merch, and a profile assistant that belongs to the member using it.
             </p>

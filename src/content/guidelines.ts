@@ -5,9 +5,9 @@ export const guidelineSections: LegalSection[] = [
     id: "who",
     title: "1. Who this hall is for",
     paragraphs: [
-      "Northroom is a direct marketplace for independent artists and the people who want to pay them. A member may be a listener, an artist with a stall, or both. House artists in the opening catalog are part of the product. Member stalls are accounts that choose to publish.",
+      "ObzueAI Independent is a direct marketplace for independent artists and the people who want to pay them. A member may be a listener, an artist with a stall, or both. House artists in the opening catalog are part of the product. Member stalls are accounts that choose to publish.",
       "These guidelines are the house rules for behavior, uploads, merch, messages, and the profile assistant. They apply the moment you sign in, follow a stall, put something in a basket, publish a release, or send a note. If a rule here conflicts with a joke in the interface, the rule wins.",
-      "Northroom is not a label, a publisher, a bank, or a law firm. We do not take your masters by hosting a listing. We also do not bless a listing as lawful just because it is on the floor.",
+      "ObzueAI Independent is not a label, a publisher, a bank, or a law firm. We do not take your masters by hosting a listing. We also do not bless a listing as lawful just because it is on the floor.",
     ],
   },
   {
@@ -42,7 +42,7 @@ export const guidelineSections: LegalSection[] = [
     title: "5. Music you upload",
     paragraphs: [
       "Upload music you made, music you have written permission to sell, or music that is genuinely in the public domain and labeled as such. A beat lease, a sample clearance, and a featured verse each need a permission you can explain if someone asks.",
-      "Do not upload a famous record and call it yours. Do not upload an unreleased song you were sent in confidence. Do not re-upload another Northroom release under a new title. Covers need a license where the law requires one; say 'cover' in the title if that is what it is.",
+      "Do not upload a famous record and call it yours. Do not upload an unreleased song you were sent in confidence. Do not re-upload another ObzueAI Independent release under a new title. Covers need a license where the law requires one; say 'cover' in the title if that is what it is.",
       "Audio previews in this hall are original room-tone motifs so we are not streaming your master in the browser. The file a buyer keeps is the release you described. Do not promise a WAV, a stem pack, or a vinyl that you will not actually hand over.",
       "Tag genre honestly. 'Ambient soul' should not be a prank upload of noise meant to harass a named person. Titles and blurbs are public. Write them like a stranger will read them on a bus.",
     ],
@@ -89,7 +89,7 @@ export const guidelineSections: LegalSection[] = [
     id: "sexual",
     title: "10. Sexual content",
     paragraphs: [
-      "Northroom is a music hall, not an adult site. Sensual lyrics happen in songs. Graphic pornography, sexual services, and solicitations do not belong in bios, merch, or inbox messages.",
+      "ObzueAI Independent is a music hall, not an adult site. Sensual lyrics happen in songs. Graphic pornography, sexual services, and solicitations do not belong in bios, merch, or inbox messages.",
       "Anything sexual involving minors is prohibited as stated in the age section and will be removed and reported if the law requires. Do not debate that rule in the inbox of the person you are reporting.",
       "Do not send unsolicited sexual messages to artists or fans. A follow is not consent. A purchase is not consent.",
     ],
@@ -129,7 +129,7 @@ export const guidelineSections: LegalSection[] = [
     paragraphs: [
       "Messages go to the stall you chose. The artist sees the display name you saved, the subject, and the body. They do not see your email through this form. Write as if that artist, and later a moderator, will read it.",
       "Artists do not have to reply. A rude reply can still break the harassment rules. If a thread goes bad, stop. Do not move it to another stall to continue the fight.",
-      "Do not send attachments that the form does not support by pasting malware links, phishing pages, or 'claim your payout' pages. Northroom will not ask you to send a password or a seed phrase in the inbox.",
+      "Do not send attachments that the form does not support by pasting malware links, phishing pages, or 'claim your payout' pages. ObzueAI Independent will not ask you to send a password or a seed phrase in the inbox.",
     ],
   },
   {
@@ -183,7 +183,7 @@ export const guidelineSections: LegalSection[] = [
     paragraphs: [
       "We will change these rules when the hall changes: new merch types, a real card checkout, a real shipping desk, or a new abuse pattern. The date at the top of the page moves when the words move. Continued use after that date is agreement to the new text for new activity.",
       "If a change limits a right you already bought — for example, taking a purchased file out of a library for a reason other than law or these rules — we will say so in the product, not only in a silent edit.",
-      "Questions about a rule can go through a report with the reason 'other' and the subject 'guidelines question'. Do not expect legal advice. If you need a lawyer, hire one before you sell something expensive or risky. These guidelines are the house rules of Northroom, written for this product, and they are not a substitute for counsel.",
+      "Questions about a rule can go through a report with the reason 'other' and the subject 'guidelines question'. Do not expect legal advice. If you need a lawyer, hire one before you sell something expensive or risky. These guidelines are the house rules of ObzueAI Independent, written for this product, and they are not a substitute for counsel.",
     ],
   },
 ];

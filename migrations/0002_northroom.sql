@@ -1,4 +1,4 @@
--- Northroom catalog, stalls, ledger, and profile assistant.
+-- ObzueAI Independent catalog, stalls, ledger, and profile assistant.
 
 create table if not exists profiles (
   user_id text primary key,

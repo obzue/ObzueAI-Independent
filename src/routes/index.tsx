@@ -21,7 +21,7 @@ function Home() {
             Buy the music from the person who made it.
           </h1>
           <p className="mt-4 max-w-lg text-lg text-muted">
-            Northroom is a hall, not a stream. Artists set the price on records and merch. Fans keep what they buy. Every member gets a private assistant that only knows their profile.
+            ObzueAI Independent is a hall, not a stream. Artists set the price on records and merch. Fans keep what they buy. Every member gets a private assistant that only knows their profile.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Link to="/marketplace" search={MARKET_ALL} className="inline-flex h-12 items-center rounded-full bg-primary px-5 text-sm font-medium text-on-primary">

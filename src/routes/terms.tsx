@@ -11,13 +11,13 @@ function TermsPage() {
       kicker="Terms"
       title="Terms of use"
       updated="October 5, 2026"
-      lede="These terms are the short contract for using Northroom. The community guidelines and the privacy policy are part of them. If you do not agree, do not sign in."
+      lede="These terms are the short contract for using ObzueAI Independent. The community guidelines and the privacy policy are part of them. If you do not agree, do not sign in."
       sections={[
         {
           id: "service",
           title: "1. The service",
           paragraphs: [
-            "Northroom lets people browse a catalog of music and merch, and lets signed-in members keep a profile, a basket, a library, and — if they open a stall — publish releases and goods. A profile assistant drafts text when you ask it to.",
+            "ObzueAI Independent lets people browse a catalog of music and merch, and lets signed-in members keep a profile, a basket, a library, and — if they open a stall — publish releases and goods. A profile assistant drafts text when you ask it to.",
             "The opening artists are part of the product. Member stalls are yours. We provide the hall. We do not become the owner of your masters because you listed them.",
           ],
         },

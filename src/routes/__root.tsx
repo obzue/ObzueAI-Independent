@@ -9,8 +9,8 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Northroom — music and merch, direct from the artist" },
-      { name: "description", content: "Northroom is a direct hall where independent artists sell music and merch, and every member has a private profile assistant." },
+      { title: "ObzueAI Independent — music and merch, direct from the artist" },
+      { name: "description", content: "ObzueAI Independent is a direct hall where independent artists sell music and merch, and every member has a private profile assistant." },
       { name: "theme-color", content: "#1c1915" },
     ],
     links: [

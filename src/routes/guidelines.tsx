@@ -12,7 +12,7 @@ function GuidelinesPage() {
       kicker="House rules"
       title="Community guidelines"
       updated="October 5, 2026"
-      lede="These are the rules for selling, buying, messaging, and using the profile assistant in Northroom. They are written for this hall. They are not legal advice, and they are not optional once you use an account."
+      lede="These are the rules for selling, buying, messaging, and using the profile assistant in ObzueAI Independent. They are written for this hall. They are not legal advice, and they are not optional once you use an account."
       sections={guidelineSections}
     />
   );

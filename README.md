@@ -1,4 +1,4 @@
-# Northroom
+# ObzueAI Independent
 
 Original full-stack hall for independent artists. Music, merch, member stalls, a per-member profile assistant, community guidelines, and a privacy policy.
 

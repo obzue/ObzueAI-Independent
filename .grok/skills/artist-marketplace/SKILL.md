@@ -27,7 +27,7 @@ This skill was loaded in this workspace from public marketplace patterns
 - `mercurjs/mercur` — multi-vendor commerce surfaces (store, vendor, admin)
 - `lyes-mersel/megashop` — customer, vendor, and assistant-shaped support
 
-The live app in this workspace is **Northroom**. Do not reuse another
+The live app in this workspace is **ObzueAI Independent**. Do not reuse another
 company's name, catalog, or copy. House artists here are original.
 
 ## Stack in this workspace

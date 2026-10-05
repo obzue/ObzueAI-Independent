@@ -12,7 +12,7 @@ function PrivacyPage() {
       kicker="Privacy"
       title="Privacy policy"
       updated="October 5, 2026"
-      lede="This policy explains what Northroom stores when you browse, sign in, buy, publish, message, report, or ask your profile assistant. It is a product policy for this hall, not a substitute for legal advice."
+      lede="This policy explains what ObzueAI Independent stores when you browse, sign in, buy, publish, message, report, or ask your profile assistant. It is a product policy for this hall, not a substitute for legal advice."
       sections={privacySections}
     />
   );

@@ -5,9 +5,9 @@ export const privacySections: LegalSection[] = [
     id: "who",
     title: "1. Who we are",
     paragraphs: [
-      "This policy describes Northroom, the independent-artist marketplace you are using. It covers the public hall, member profiles, stalls, baskets, the ledger, messages, reports, and the profile assistant.",
-      "Northroom is a product policy written for this app. It is not a law-firm memo and not legal advice. If you sell music or merch as a business, you may have your own duties to your fans on top of this page. Read those too.",
-      "When this policy says 'the hall', it means the Northroom application and the people operating it. It does not mean the artists, who are members with stalls, not our employees.",
+      "This policy describes ObzueAI Independent, the independent-artist marketplace you are using. It covers the public hall, member profiles, stalls, baskets, the ledger, messages, reports, and the profile assistant.",
+      "ObzueAI Independent is a product policy written for this app. It is not a law-firm memo and not legal advice. If you sell music or merch as a business, you may have your own duties to your fans on top of this page. Read those too.",
+      "When this policy says 'the hall', it means the ObzueAI Independent application and the people operating it. It does not mean the artists, who are members with stalls, not our employees.",
     ],
   },
   {
@@ -23,7 +23,7 @@ export const privacySections: LegalSection[] = [
     id: "you-give",
     title: "3. Information you give us",
     paragraphs: [
-      "Account: when you sign in, we receive an identifier, and typically a display name, an email address, and a profile image URL from the sign-in provider. We store a Northroom profile you edit: handle, name, city, genres, public bio, role, plan, a color used for your sleeve, and whether you accepted the guidelines.",
+      "Account: when you sign in, we receive an identifier, and typically a display name, an email address, and a profile image URL from the sign-in provider. We store a ObzueAI Independent profile you edit: handle, name, city, genres, public bio, role, plan, a color used for your sleeve, and whether you accepted the guidelines.",
       "Private statement: the field marked private is for you and your profile assistant. It is not placed on the public stall. Do not put secrets you cannot bear to have stored at all, such as passwords or government ID numbers. We do not want them.",
       "Commerce: basket lines, orders, library entries, and sales attributed to a stall. The preview ledger records that you settled an order. It does not store a card number because no card is collected.",
       "Stall content: releases, track titles, blurbs, prices, split notes, merch descriptions, and stock. You chose to make those public by publishing.",
@@ -37,7 +37,7 @@ export const privacySections: LegalSection[] = [
     title: "4. Information collected because you used the hall",
     paragraphs: [
       "Play counts on a release increase when a track preview starts. That counter is public on the release. It is not a unique advertising profile of you.",
-      "Follows and mailing-list joins are stored as 'this account follows this handle' or 'this account joined this list'. Artists see counts. They do not get a download of follower emails from Northroom.",
+      "Follows and mailing-list joins are stored as 'this account follows this handle' or 'this account joined this list'. Artists see counts. They do not get a download of follower emails from ObzueAI Independent.",
       "We use a session to know you are signed in. The sign-in system keeps the session needed to keep you logged in. We do not ask you to paste that session anywhere.",
       "Basic technical logs can exist on the host that serves the app, the way any website logs a request. We do not build those logs into a public analytics billboard of members. The opening catalog pages may be cached like any public page.",
     ],
@@ -58,7 +58,7 @@ export const privacySections: LegalSection[] = [
     paragraphs: [
       "When you settle a basket, we store an order id, the time, the total, and a sales row per line: which stall, which item, the title, the quantity, and the line amount. Your library stores the title and artist name so you can open what you bought.",
       "We do not attach a full export of the buyer's email to the artist's studio. The artist sees title, quantity, and amount. That is enough to understand a sale and not enough to spam a customer.",
-      "No payment card, bank account, or government identity document is collected by this preview. If a later version adds a payment processor, this policy will name it, say what it receives, and move the date at the top. Until that sentence exists, anyone asking you to 'verify a card inside Northroom chat' is not us.",
+      "No payment card, bank account, or government identity document is collected by this preview. If a later version adds a payment processor, this policy will name it, say what it receives, and move the date at the top. Until that sentence exists, anyone asking you to 'verify a card inside ObzueAI Independent chat' is not us.",
       "Stock numbers change when merch settles. That is inventory, not a profile of the buyer.",
     ],
   },
@@ -97,7 +97,7 @@ export const privacySections: LegalSection[] = [
     title: "10. What artists see, and what they must not do",
     paragraphs: [
       "Artists see their own releases, merch, stock, follower count, mailing-list count, inbox messages addressed to them, and their own sales lines. They do not get a tool to browse every member's email.",
-      "Artists are independent. If an artist asks you, off to the side, for a shipping address or a phone number, that request is between you and them. Think before you send it. Northroom's message form is not an address book.",
+      "Artists are independent. If an artist asks you, off to the side, for a shipping address or a phone number, that request is between you and them. Think before you send it. ObzueAI Independent's message form is not an address book.",
       "Artists must not use what they learn in the inbox to harass, dox, or discriminate. That is a guidelines problem and, when you report it, a moderation problem. We can remove the stall. We cannot un-know a fact the artist already saw.",
     ],
   },
@@ -153,7 +153,7 @@ export const privacySections: LegalSection[] = [
     title: "16. Where information sits",
     paragraphs: [
       "The people who use a public marketplace are in many places. The database and the model provider may be in countries other than yours, including the United States. When you make an account or press the assistant, you understand the information in this policy is processed there so the feature can run.",
-      "We do not offer a separate in-country vault in this version. If that is a hard requirement for your stall, do not put sensitive fan data into Northroom. The product is built not to need it.",
+      "We do not offer a separate in-country vault in this version. If that is a hard requirement for your stall, do not put sensitive fan data into ObzueAI Independent. The product is built not to need it.",
     ],
   },
   {
@@ -177,7 +177,7 @@ export const privacySections: LegalSection[] = [
     title: "19. What this page is not",
     paragraphs: [
       "It is not a promise that every member will behave. It is not a warranty that a listing is cleared, original, or safe to sample. It is not a privacy policy for the artists' off-platform lives.",
-      "It is the description of how this Northroom build handles information, so you can decide whether to sign in, whether to publish, and whether to press the assistant. If you disagree with it, the honest move is not to use the account features. The public catalog remains readable.",
+      "It is the description of how this ObzueAI Independent build handles information, so you can decide whether to sign in, whether to publish, and whether to press the assistant. If you disagree with it, the honest move is not to use the account features. The public catalog remains readable.",
     ],
   },
 ];
