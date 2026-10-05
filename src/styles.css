@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #f4efe6;
+  --color-surface: #fffdf8;
+  --color-ink: #1c1915;
+  --color-muted: #6f675c;
+  --color-line: #e3d8c8;
+  --color-primary: #c24b24;
+  --color-on-primary: #fffaf3;
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --radius-card: 1.25rem;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background: var(--color-bg);
+    color: var(--color-ink);
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    min-height: 100vh;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled),
+  summary {
+    cursor: pointer;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+}
+
+.sleeve {
+  position: relative;
+  overflow: hidden;
+  background: hsl(var(--hue) 42% 42%);
+  color: #fffaf3;
+}
+.sleeve-shade {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(120% 80% at 0% 0%, hsl(var(--hue) 55% 62% / 0.9), transparent 55%),
+    linear-gradient(160deg, transparent 30%, hsl(var(--hue) 40% 18% / 0.55));
+}
+.sleeve[data-pattern="0"] .sleeve-mark {
+  position: absolute;
+  right: -12%;
+  bottom: -18%;
+  width: 70%;
+  height: 70%;
+  border: 2px solid rgb(255 250 243 / 0.7);
+  border-radius: 999px;
+}
+.sleeve[data-pattern="1"] .sleeve-mark {
+  position: absolute;
+  left: 10%;
+  top: 12%;
+  width: 46%;
+  height: 46%;
+  border: 10px solid rgb(255 250 243 / 0.75);
+  border-radius: 999px;
+}
+.sleeve[data-pattern="2"] .sleeve-mark {
+  position: absolute;
+  inset: 18% 12%;
+  border-left: 3px solid rgb(255 250 243 / 0.8);
+  border-right: 3px solid rgb(255 250 243 / 0.35);
+}
+.sleeve[data-pattern="3"] .sleeve-mark {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 38%;
+  height: 18%;
+  background: rgb(255 250 243 / 0.22);
+}
+.sleeve[data-pattern="4"] .sleeve-mark {
+  position: absolute;
+  width: 140%;
+  height: 28%;
+  left: -20%;
+  top: 22%;
+  background: rgb(28 25 21 / 0.28);
+  transform: rotate(-18deg);
+}
+.sleeve[data-pattern="5"] .sleeve-mark {
+  position: absolute;
+  inset: 14%;
+  border-radius: 999px;
+  box-shadow: inset 0 0 0 10px rgb(255 250 243 / 0.28), inset 0 0 0 22px rgb(28 25 21 / 0.25);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .motion-safe {
+    animation: none !important;
+    transition: none !important;
+  }
+}
